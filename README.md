@@ -1,16 +1,14 @@
-# PythonAssessment
+ PythonAssessment
 
-## Summative Lab: Analyze a News Article
+ Summative Lab: Analyze a News Article
 
-### Project Overview
+ Project Overview
 
 This project is a Python-based text analysis application developed as part of a summative programming laboratory assessment. The application analyzes the contents of a news article and extracts useful textual information using Python functions, regular expressions, loops, and built-in libraries.
 
 The program demonstrates fundamental programming concepts including file handling, string processing, regular expressions, functions, loops, conditional statements, and the use of Python's standard library.
 
----
-
-## Objectives
+ Objectives
 
 The application performs the following text analysis tasks:
 
@@ -21,9 +19,7 @@ The application performs the following text analysis tasks:
 - Count the total number of sentences.
 - Allow the user to repeatedly search for different words until choosing to exit.
 
----
-
-## Features
+ Features
 
 - Reads a news article from an external text file.
 - Performs case-insensitive word searches.
@@ -35,9 +31,7 @@ The application performs the following text analysis tasks:
 - Interactive command-line interface.
 - Handles common edge cases such as empty input.
 
----
-
-## Technologies Used
+Technologies Used
 
 - Python 3
 - Regular Expressions (`re`)
@@ -47,59 +41,31 @@ The application performs the following text analysis tasks:
 - Git
 - GitHub
 
----
+ Project Structure
 
-## Project Structure
-
-```
 PythonAssessment/
 │
 ├── pythonAssessment.py
 ├── news_article.txt
 └── README.md
-```
 
----
-
-## Program Requirements
+ Program Requirements
 
 The following Python modules are used:
 
-```python
+python
 import re
 from collections import Counter
 from pathlib import Path
-```
-
 No external libraries are required.
 
----
+ How to Run the Program
 
-## How to Run the Program
-
-### Clone the repository
-
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/PythonAssessment.git
-```
-
-### Navigate to the project folder
-
-```bash
-cd PythonAssessment
-```
-
-### Run the program
-
-```bash
+ Run the program
+bash
 python3 pythonAssessment.py
-```
+ Example Output
 
----
-
-## Example Output
-
-```
 The most common word is: the
 The average word length is: 5.22
 Number of paragraphs: 19
@@ -113,10 +79,6 @@ The word 'machine' appears 8 times.
 
 Enter a word to search for (or type 'quit' to exit): quit
 Goodbye!
-```
-
----
-
 ## Functions Implemented
 
 | Function | Description |
@@ -126,10 +88,7 @@ Goodbye!
 | `calculate_average_word_length()` | Calculates the average length of all words in the article. |
 | `count_paragraphs()` | Counts paragraphs separated by blank lines. |
 | `count_sentences()` | Counts sentences using punctuation marks. |
-
----
-
-## Programming Concepts Demonstrated
+ Programming Concepts Demonstrated
 
 This project demonstrates the following Python concepts:
 
@@ -144,10 +103,7 @@ This project demonstrates the following Python concepts:
 - Modular programming
 - User input handling
 - String manipulation
-
----
-
-## Testing
+Testing
 
 The application was tested using several search terms, including:
 
@@ -163,10 +119,7 @@ Edge cases tested include:
 - Empty strings
 - Words not present in the article
 - Multiple user searches during a single execution
-
----
-
-## Future Improvements
+Future Improvements
 
 Possible enhancements include:
 
@@ -176,17 +129,6 @@ Possible enhancements include:
 - Supporting multiple article files.
 - Creating a graphical user interface (GUI).
 - Adding automated unit tests.
+Author
+Maureen Gichuhi
 
----
-
-## Author
-
-**Maureen Gichuhi**
-
-Python Summative Laboratory Assessment
-
----
-
-## License
-
-This project was developed for educational purposes as part of a Python programming assessment.
