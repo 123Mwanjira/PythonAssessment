@@ -43,11 +43,21 @@ Technologies Used
 
  Project Structure
 
-PythonAssessment/
+ PythonAssessment/
 │
 ├── pythonAssessment.py
 ├── news_article.txt
-└── README.md
+├── README.md
+├── TESTING.md
+├── .gitignore
+└── screenshots/
+      ├── test1-program-start.png
+      ├── test2-apple-search.png
+      ├── test3-ai-search.png
+      ├── test4-banana-search.png
+      └── test5-quit.png
+
+
 
  Program Requirements
 
@@ -64,6 +74,12 @@ No external libraries are required.
  Run the program
 bash
 python3 pythonAssessment.py
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-5.png)
+
  Example Output
 
 The most common word is: the
@@ -79,7 +95,7 @@ The word 'machine' appears 8 times.
 
 Enter a word to search for (or type 'quit' to exit): quit
 Goodbye!
-## Functions Implemented
+ Functions Implemented
 
 | Function | Description |
 |----------|-------------|
