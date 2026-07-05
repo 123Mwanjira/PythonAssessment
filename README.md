@@ -51,11 +51,10 @@ Technologies Used
 ├── TESTING.md
 ├── .gitignore
 └── screenshots/
-      ├── test1-program-start.png
-      ├── test2-apple-search.png
-      ├── test3-ai-search.png
-      ├── test4-banana-search.png
-      └── test5-quit.png
+      ├── test1-png
+      ├── test2-quit png
+      
+      
 
 
 
